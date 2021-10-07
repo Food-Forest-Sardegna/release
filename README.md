@@ -74,7 +74,7 @@ Press Escape button and type below command and press enter
 >:w
 
 Start the node with following command:
->java -jar fft-all-1.2.17.jar mainnet.conf
+>java -jar fft-all-1.3.6.jar mainnet.conf
 
 Node will start downloading and synching the blockchain. If any error during starting of node means something wrong input in mainnet.conf
 
