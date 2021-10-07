@@ -1,0 +1,1 @@
+java -jar fft-all-1.3.6.jar mainnet.conf
