@@ -48,7 +48,7 @@ Once its installed check if you have the latest version.
 Link: [Latest Release](https://github.com/Food-Forest-Sardegna/release/archive/refs/heads/main.zip)
 
 Command to download on Linux Server<br>
-> sudo wget https://github.com/Food-Forest-Sardegna/releases/archive/master.zip<br>
+> sudo wget https://github.com/Food-Forest-Sardegna/release/archive/refs/heads/main.zip<br>
 
 Type below command to install Unzip in Linux server and make the required changes in mainnet.conf<br>
 > sudo apt-get install unzip<br>
