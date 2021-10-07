@@ -6,7 +6,7 @@
 4. 30GB SSD
 2. Java version 8 and above must be installed in your VPS. If your windows VPS doesn't have it download it from [Here](https://www.java.com/en/download/) and set java in your [windows environment](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html).
 ## Installing and configuring a FFT Platform full node on Windows VPS<br>
- Step 1: Click Here and [Download](https://github.com/Food-Forest-Sardegna/release/archive/master.zip) the Zip Folder and Unzip it.<br>
+ Step 1: Click Here and [Download](https://github.com/Food-Forest-Sardegna/release/archive/refs/heads/main.zip) the Zip Folder and Unzip it.<br>
  Step 2: Set the configuration file of your node in **mainnet.conf**<br>
 Step 3: Click the file inside the folder named as **"start.bat"**
 
@@ -45,7 +45,7 @@ Once its installed check if you have the latest version.
 > java -version
 
 **Step 4:** Download the latest fullnode from Food-Forest-Sardegna repository.<br>
-Link: [Latest Release](https://github.com/Food-Forest-Sardegna/release/archive/master.zip)
+Link: [Latest Release](https://github.com/Food-Forest-Sardegna/release/archive/refs/heads/main.zip)
 
 Command to download on Linux Server<br>
 > sudo wget https://github.com/Food-Forest-Sardegna/releases/archive/master.zip<br>
