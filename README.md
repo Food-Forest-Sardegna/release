@@ -11,7 +11,7 @@
 Step 3: Click the file inside the folder named as **"start.bat"**
 
 ## How to run Node the FFT Node
-**Step 1:** Download the [FFT Desktop Wallet](https://github.com/Food-Forest-Sardegna/FFTfx-Wallet/archive/refs/heads/main.zip) and set FFT wallet as custom chain to generate a blank FFT account. (without funds)  
+**Step 1:** Download the [FFT Desktop Wallet](https://github.com/Food-Forest-Sardegna/FFTfx-Wallet/archive/refs/heads/main.zip) and set FFT wallet as mainnet chain to generate a blank FFT account. (without funds)  
 **Step 2:** Notedown the Encoded seed from FFT wallet. (You will required this encoded seed in mainnet.conf)<br>
 **Step 3:** Right click the mainnet.conf file and open it in any text editor. (Like notepad in Windows and vi editor incase of Linux)<br>
 **Step 4:** Change the below lines in mainnet.conf and save it<br>
