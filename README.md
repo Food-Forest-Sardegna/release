@@ -1,4 +1,4 @@
-# PDF Document About Release how to install and run FFT Node [Download](https://github.com/Food-Forest-Sardegna/release/blob/main/Read_me.pdf)  
+# PDF Document About Release how to install and run FFT Node [English - Download](https://github.com/Food-Forest-Sardegna/release/blob/main/En-READ.pdf) [Italian - Download](https://github.com/Food-Forest-Sardegna/release/blob/main/Ita-READ.pdf)  
 
 # releases
 ## System and OS Requirements:<br>
