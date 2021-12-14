@@ -68,7 +68,7 @@ Command to download it on your Linux PC/Server<br>
 Type the commands below, and press the “Enter” button after each of them, to install Unzip in your Linux pc/server and being able next to make the required changes in the mainnet.conf file<br>
 > sudo apt-get install unzip<br>
 > unzip main.zip<br>
-> cd release-master<br>
+> cd release-main<br>
 > screen<br>
 > sudo vi mainnet.conf<br>
 
