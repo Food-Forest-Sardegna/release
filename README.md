@@ -85,8 +85,9 @@ Press Escape (**Esc**) button and type the below command
 >:w
 
 Next press the **Enter** button.
+Now type **:qa!** and press **Enter** to get back into the writing mode.
 
-**Note**: if something went wrong during the editing or you don't wanna to save it, just press escape and type **:qa!** to exit by pressing the Enter button after. Use the command **sudo vi mainnet.conf** again to edit the file if necessary.
+**Note**: if something went wrong during the editing or you don't wanna to save it, just press Esc and type **:qa!** to exit by pressing the Enter button after. Use the command **sudo vi mainnet.conf** again to edit the file if necessary.
 
 Now to start the node simply use the following command:
 >java -jar fft-all-1.3.6.jar mainnet.conf
