@@ -1,5 +1,5 @@
 # PDF Document About Release how to install and run FFT Node 
-[English - Download](https://github.com/Food-Forest-Sardegna/release/blob/main/En-README.pdf) <br>
+[English - Download](https://github.com/Food-Forest-Sardegna/release/files/7710304/Release.ENG.pdf)<br>
 [Italian - Download](https://github.com/Food-Forest-Sardegna/release/blob/main/ITA-README.pdf)  
 
 # releases
