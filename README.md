@@ -11,7 +11,7 @@
 2. Minimum 2 cores
 3. 2GB RAM
 4. 30GB SSD
-2. Java version 8 and above must be installed in your VPS. If your windows VPS doesn't have it download it from [Here](https://www.java.com/en/download/) and set java in your windows environment.
+2. Java version 11 and above must be installed in your VPS. If your windows VPS doesn't have it download it from [Here](https://www.java.com/en/download/) and set java in your windows environment.
 ## Installing and configuring a FFS Blockchain full node for FFT mining on a Windows PC/VPS<br>
  Step 1: Click Here and [Download](https://github.com/Food-Forest-Sardegna/release/archive/refs/heads/main.zip) the Zip Folder and Unzip it.<br>
  Step 2: Modify the configuration file to activate your node in **mainnet.conf**<br>
@@ -50,8 +50,8 @@ All commands are issued as root. If you do not use your root account most comman
 >apt update<br>
  
 **Step 3:** Install the Java development kit using the following commands<br>
-> sudo apt install openjdk-8-jre <br>
-> sudo apt install openjdk-8-jdk <br>
+> sudo apt install openjdk-11-jre <br>
+> sudo apt install openjdk-11-jdk <br>
 > sudo apt update <br>
 
 Once its installed check if the version is the latest.
