@@ -103,6 +103,7 @@ it will show the list of running screen note down that number
 
 Step 3: Type below command, press enter
 > screen -r -d screennumber
+
 Where screennumber = From Step 2
 
 Step 4: Press ”ctrl+c” to stop the running node.
