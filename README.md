@@ -73,7 +73,7 @@ Type the below linux commands, and press the “Enter” button after each of th
 > screen<br>
 > sudo vi mainnet.conf<br>
 
-Press the **Insert button** to enable the ability to type and edit the file with vi editor<br>
+Once file is opened, Press the **Insert button** to edit mainnet.conf<br>
 
 **Step 6:** Change the below lines in mainnet.conf and save it<br>
 a) node-name = "Type Your Node Name Here"<br>
@@ -88,7 +88,7 @@ Press Escape (**Esc**) button and type the below command
 Next press the **Enter** button.
 Now type **:qa!** and press **Enter** to get back into the writing mode.
 
-**Note**: if something went wrong during the editing or you don't wanna to save it, just press Esc and type **:qa!** to exit by pressing the Enter button after. Use the command **sudo vi mainnet.conf** again to edit the file if necessary.
+**Note**: if something went wrong during the editing or you don't wanna to save it, just press Esc and type **:qa!** to exit by pressing the Enter button after. Use the command **sudo vi mainnet.conf** again to edit the file if necessary. Be ensure your server must have latest or mentioned java version as mentioned in Step 3.
 
 Now to start the node simply use the following command:
 >java -jar fft-all-1.5.3.jar mainnet.conf
