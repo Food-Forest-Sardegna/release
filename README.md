@@ -13,7 +13,7 @@
 4. 30GB SSD
 2. Java version 11 and above must be installed in your VPS. If your windows VPS doesn't have it download it from [Here](https://www.java.com/en/download/) and set java in your windows environment.
 ## Installing and configuring a FFS Blockchain full node for FFT mining on a Windows PC/VPS<br>
- Step 1: Click Here and [Download](https://github.com/Food-Forest-Sardegna/release/archive/refs/heads/main.zip) the Zip Folder and Unzip it.<br>
+ Step 1: Click Here and [Download](https://github.com/Food-Forest-Sardegna/release/releases/download/v1.3.6-v1.5.3/fft-all-1.5.3.jar) the jar file.<br>
  Step 2: Modify the configuration file to activate your node in **mainnet.conf**<br>
  Step 3: Click the file inside the folder named as **"start.bat"**
 
@@ -90,7 +90,7 @@ Now type **:qa!** and press **Enter** to get back into the writing mode.
 **Note**: if something went wrong during the editing or you don't wanna to save it, just press Esc and type **:qa!** to exit by pressing the Enter button after. Use the command **sudo vi mainnet.conf** again to edit the file if necessary.
 
 Now to start the node simply use the following command:
->java -jar fft-all-1.3.6.jar mainnet.conf
+>java -jar fft-all-1.5.3.jar mainnet.conf
 
 The node will start downloading and synching the blockchain. If any error appears during the activation of the node means something has been inserted wrongly in the mainnet.conf file. Use the “Note” indications to edit the file again.
 
