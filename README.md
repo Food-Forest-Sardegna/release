@@ -109,11 +109,11 @@ Where screennumber = From Step 2
 Step 4: Press ”ctrl+c” to stop the running node.
 
 Step 5: Type the following command to delete the existing fft folder containing all nodes files. 
-Warning: ⚠️ Be ensure before deleting this folder as deleting this folder will lead to delete all entire blockchain data and wallet, please ensure you have Encoded Seed of your node.  
+Warning: ⚠️ Be ensure before deleting this folder as deleting this folder will lead to delete all entire blockchain data and wallet, please ensure you have Encoded Seed backup of your node seed phrase.  
 
 > sudo rm -rf /opt/fft
 
-Step6: Follow the steps from Here to install node(https://github.com/Food-Forest-Sardegna/release?tab=readme-ov-file#installing-and-configuring-a--ffs-blockchain-full-node-for-fft-mining-on-a-linux-pcserver)
+Step6: [Follow the steps from Here to install node](https://github.com/Food-Forest-Sardegna/release?tab=readme-ov-file#installing-and-configuring-a--ffs-blockchain-full-node-for-fft-mining-on-a-linux-pcserver)
 
 
 Good Luck and Prosperity with the Mining and Leasing of Food Forest Token.
