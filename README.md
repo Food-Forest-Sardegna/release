@@ -90,4 +90,26 @@ The node will start downloading and synching the blockchain. If any error appear
 
 When all blocks are synched, then you can detach the screen by pressing **CTRL+d** and close the window. The node has been set to run in background process of your Linux PC/VPS.
 
+
+## Updating node from old version to new version
+### ⚠️Warning : **Be Ensure you notedown Encoded seed of your node which is available in Step 6 (c). Losing of that encoded seed means, may lead to loss of node funds.**  
+
+Step1 : Enter into linux server
+
+Step2 : Type following command, press enter to see and attach screen of running node
+> screen -ls 
+it will show the list of running screen note down that number
+
+Step 3: Type below command, press enter
+> screen -r -d screennumber
+Where screennumber = From Step 2
+
+Step 4: Press ”ctrl+c” to stop the running node.
+
+Step 5: Type the following command to delete the existing fft folder containing all nodes files, ⚠️ Be ensure before deleting this folder you have Encoded Seed of your node.  
+> sudo rm -rf /opt/fft
+
+Step6: Follow the steps from Here to install node(https://github.com/Food-Forest-Sardegna/release?tab=readme-ov-file#installing-and-configuring-a--ffs-blockchain-full-node-for-fft-mining-on-a-linux-pcserver)
+
+
 Good Luck and Prosperity with the Mining and Leasing of Food Forest Token.
