@@ -97,7 +97,8 @@ When all blocks are synched, then you can detach the screen by pressing **CTRL+
 Step1 : Enter into linux server
 
 Step2 : Type following command, press enter to see and attach screen of running node
-> screen -ls 
+> screen -ls
+ 
 it will show the list of running screen note down that number
 
 Step 3: Type below command, press enter
