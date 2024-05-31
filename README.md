@@ -108,7 +108,9 @@ Where screennumber = From Step 2
 
 Step 4: Press ”ctrl+c” to stop the running node.
 
-Step 5: Type the following command to delete the existing fft folder containing all nodes files, ⚠️ Be ensure before deleting this folder you have Encoded Seed of your node.  
+Step 5: Type the following command to delete the existing fft folder containing all nodes files. 
+Warning: ⚠️ Be ensure before deleting this folder you have Encoded Seed of your node.  
+
 > sudo rm -rf /opt/fft
 
 Step6: Follow the steps from Here to install node(https://github.com/Food-Forest-Sardegna/release?tab=readme-ov-file#installing-and-configuring-a--ffs-blockchain-full-node-for-fft-mining-on-a-linux-pcserver)
