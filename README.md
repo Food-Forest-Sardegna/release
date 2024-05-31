@@ -92,7 +92,7 @@ When all blocks are synched, then you can detach the screen by pressing **CTRL+
 
 
 ## Updating node from old version to new version
-### ⚠️Warning : **Be Ensure you notedown Encoded seed of your node which is available in Step 6 (c). Losing of that encoded seed means, may lead to loss of node funds.**  
+### ⚠️Warning : **Be Ensure you notedown Encoded seed of your node which is available in Step 6 (c). Losing of that encoded seed means lead to loss of node funds.**  
 
 Step1 : Enter into linux server
 
