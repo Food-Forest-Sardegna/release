@@ -35,7 +35,7 @@ Good Luck and Prosperity with Food Forest Token Mining and Leasing.
 
 ## Installing and configuring a  FFS Blockchain full node for FFT mining on a Linux PC/Server
 ## System and OS Requirements:<br>
-1. Ubuntu 18 VPS in case of Linux<br>
+1. Ubuntu 20 VPS in case of Linux<br>
 2. Minimum 2 cores<br>
 3. 2GB RAM<br>
 4. 30GB SSD<br>
@@ -47,7 +47,8 @@ All commands are issued as root. If you do not use your root account most comman
 **Step 1:** login into you Linux pc/server terminal with the root account<br>
 
 **Step 2:** Type the command showed below<br>
->apt update<br>
+>sudo apt update<br>
+>sudo apt upgrade<br>
  
 **Step 3:** Install the Java development kit using the following commands<br>
 > sudo apt install openjdk-11-jre <br>
@@ -57,22 +58,22 @@ All commands are issued as root. If you do not use your root account most comman
 Once its installed check if the version is the latest.
 > java -version
 
-**Step 4:** Download the latest fullnode from Food-Forest-Sardegna repository.<br>
-Link: [Latest Release](https://github.com/Food-Forest-Sardegna/release/archive/refs/heads/main.zip)
+## Linux Server Step
+**Step 4:** Download the latest jar and mainnet.conf file.<br>
+Enter following command one by one in linux server to download both<br>
+> sudo wget https://github.com/Food-Forest-Sardegna/release/releases/download/v1.3.6-v1.5.3/fft-all-1.5.3.jar<br>
+> sudo wget https://raw.githubusercontent.com/Food-Forest-Sardegna/release/main/mainnet.conf<br>
 
-Command to download it on your Linux PC/Server<br>
-> sudo wget https://github.com/Food-Forest-Sardegna/release/archive/refs/heads/main.zip<br>
+## Windows PC Step
+**Step 5:** Download the [FFT Desktop Wallet](https://github.com/Food-Forest-Sardegna/FFTfx-Wallet/archive/refs/heads/main.zip) on windows PC.<br>
+Open Desktop Wallet, Create a new account inside the **Mainnet chain** copy and save your Encoded backup seed found inside the settings, this seed will be used inside mainnet.conf to run the node.
 
-**Step 5:** Download the [FFT Desktop Wallet](https://github.com/Food-Forest-Sardegna/FFTfx-Wallet/archive/refs/heads/main.zip) in Linux pc, create a new account inside the Mainnet chain and save your Encoded backup seed found inside the settings, to use it inside mainnet.conf when needed.
-
-Type the commands below, and press the “Enter” button after each of them, to install Unzip in your Linux pc/server and being able next to make the required changes in the mainnet.conf file<br>
-> sudo apt-get install unzip<br>
-> unzip main.zip<br>
-> cd release-main<br>
+## Linux Server Step
+Type the below linux commands, and press the “Enter” button after each of them, make the required changes in the mainnet.conf file<br>
 > screen<br>
 > sudo vi mainnet.conf<br>
 
-Press the **Enter button** to enable the ability to type and edit the file with vi editor<br>
+Press the **Insert button** to enable the ability to type and edit the file with vi editor<br>
 
 **Step 6:** Change the below lines in mainnet.conf and save it<br>
 a) node-name = "Type Your Node Name Here"<br>
