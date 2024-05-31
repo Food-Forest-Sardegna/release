@@ -1,10 +1,3 @@
-# PDF Document About Release how to install and run FFT Node 
-
-[README - ITA.pdf](https://github.com/Food-Forest-Sardegna/release/files/7718831/README.-.ITA.pdf)
-
-[README - ENG.pdf](https://github.com/Food-Forest-Sardegna/release/files/7718832/README.-.ENG.pdf)
-
-
 # releases
 ## System and OS Requirements:<br>
 1. Windows 10 and above
