@@ -11,7 +11,7 @@
  Step 3: Click the file inside the folder named as **"start.bat"**
 
 ## How to run a BNS Node with Windows OS
-**Step 1:** Download the [FFT Desktop Wallet](https://github.com/Food-Forest-Sardegna/FFTfx-Wallet/archive/refs/heads/main.zip) on yours Windows PC. Open the Desktop Wallet of the BNS, and create a new account inside the **Mainnet chain**<br> 
+**Step 1:** Download the [BNS Desktop Wallet](https://github.com/Food-Forest-Sardegna/FFTfx-Wallet/archive/refs/heads/main.zip) on yours Windows PC. Open the Desktop Wallet of the BNS, and create a new account inside the **Mainnet chain**<br> 
 **Step 2:** Notedown/copy the Encoded Seed of your account from the BNS wallet settings area. (This Seed will be used within the edits to be done inside the mainnet.conf file, to run the node)<br>
 **Step 3:** Open the mainnet.conf file in any text editor. (Text Note, NotePad etc)<br>
 **Step 4:** Edit the mainnet.conf file accordingly, in the lines showed below, and save it<br>
@@ -58,7 +58,7 @@ Enter the following commands one by one inside your linux server/pc to download 
 > sudo wget https://raw.githubusercontent.com/Food-Forest-Sardegna/release/main/mainnet.conf<br>
 
 ## Windows PC Step
-**Step 5:** Download the [FFT Desktop Wallet](https://github.com/Food-Forest-Sardegna/FFTfx-Wallet/archive/refs/heads/main.zip) on yours Windows PC.<br>
+**Step 5:** Download the [BNS Desktop Wallet](https://github.com/Food-Forest-Sardegna/FFTfx-Wallet/archive/refs/heads/main.zip) on yours Windows PC.<br>
 Open the Desktop Wallet of the BNS, and create a new account inside the **Mainnet chain**. Notedown/copy the Encoded Seed of your account from the BNS wallet settings area. (This Seed will be used within the edits to be done inside the mainnet.conf file, to run the node)
 ## Linux Server Step
 Type the linux commands provided below, and press the “Enter” button after each of them, to be able to make the required changes inside the mainnet.conf file<br>
