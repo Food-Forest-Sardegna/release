@@ -1,4 +1,4 @@
-# releases
+# Release
 ## System and OS Requirements:<br>
 1. Windows 10 and above
 2. Minimum 2 cores
