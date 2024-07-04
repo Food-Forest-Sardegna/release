@@ -90,29 +90,4 @@ If no errors occur, congratulations, you are now officially operating a node ins
 When all blocks are synched, you can detach the screen by pressing **CTRL+d** and close the window. The node has been set to run in the background processes of your Linux PC/VPS.
 
 
-## Updating a node from old version to new version
-### ⚠️Warning : **Be assured that you have noted down your Encoded seed of your node, which is available in Step 6 (c). Losing the encoded seed means losing access to your node account, which leads inevitably to the loss of node funds.**  
-
-Step1 : Enter into the linux server
-
-Step2 : Type the following command, next press enter, to see and attach the screen of a running BNS node
-> screen -ls
- 
-it will show the list of the running screen, note down that number
-
-Step 3: Type below command, press enter
-> screen -r -d screennumber
-
-Where screennumber = From Step 2
-
-Step 4: Press ”ctrl+c” to stop the running node.
-
-Step 5: Type the following command to delete the existing bns folder containing all nodes files. 
-Warning: ⚠️ Be assured before deleting this folder, as deleting this folder will lead to delete all entire blockchain data and wallet, please ensure you have saved your Encoded Seed and all the other important informaionts regarding your account!
-
-> sudo rm -rf /opt/fft
-
-Step6: [Follow the steps from Here to install node](https://github.com/Food-Forest-Sardegna/release?tab=readme-ov-file#installing-and-configuring-a--ffs-blockchain-full-node-for-fft-mining-on-a-linux-pcserver)
-
-
 Congratulations on your choice, because it is thanks to free individuals like you that the BNS is decentralised and strong in its actions.
