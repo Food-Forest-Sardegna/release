@@ -1,34 +1,49 @@
 # Release
+
 ## System and OS Requirements:<br>
+
 1. Windows 10 and above
 2. Minimum 2 cores
 3. 2GB RAM
 4. 30GB SSD
 2. Java version 11 and above must be installed in your VPS. If your windows VPS doesn't have it, download it from [Here](https://www.java.com/en/download/) and set java in your windows environment.
-## Installing and configuring a Blockchain Natzionale Sarda BNS full node for mining FFTs (Food Forest Token) on a Windows PC/VPS<br>
- Step 1: Click Here and [Download](https://github.com/Food-Forest-Sardegna/release/releases/download/v1.3.6-v1.5.3/fft-all-1.5.3.jar) the jar file.<br>
- Step 2: Download and unzip [this folder](https://github.com/Food-Forest-Sardegna/release/archive/refs/heads/main.zip)<br>
- Step 3: Place the fft-all-1.5.3.jar inside the folder mentioned in step 2.<br>
- Step 4: Modify the configuration file to activate your node in **mainnet.conf**<br>
- Step 5: Click the file inside the folder named as **"start.bat"**
 
-## How to run a BNS Node with Windows OS
-**Step 1:** Download the [BNS Desktop Wallet](https://github.com/Food-Forest-Sardegna/FFTfx-Wallet/archive/refs/heads/main.zip) on yours Windows PC. Open the Desktop Wallet of the BNS, and create a new account inside the **Mainnet chain**<br> 
-**Step 2:** Notedown/copy the Encoded Seed of your account from the BNS wallet settings area. (This Seed will be used within the edits to be done inside the mainnet.conf file, to run the node)<br>
-**Step 3:** Open the mainnet.conf file in any text editor. (Text Note, NotePad etc)<br>
-**Step 4:** Edit the mainnet.conf file accordingly, in the lines showed below, and save it<br>
+## Installing and configuring a Blockchain Natzionale Sarda BNS full node for mining FFTs (Food Forest Token) on a Windows PC/VPS<br>
+
+ Step 1: Download and unzip [the " Release Main" folder clicking here](https://github.com/Food-Forest-Sardegna/release/archive/refs/heads/main.zip)<br>
+
+ Step 2: Now [click HERE and download](https://github.com/Food-Forest-Sardegna/release/releases/download/v1.3.6-v1.5.3/fft-all-1.5.3.jar) the newest .jar file of the nodes version.<br>
+
+ Step 3: Place the fft-all-1.5.3.jar just downloaded inside the "Release Main" unzipped folder, mentioned in step 1, with the other files present in it, ReadMe.md - mainnet.conf and start.bat file.<br>
+
+# Now you are ready to proceed with the next steps :
+
+ Step 4: Download the [BNS Desktop Wallet](https://github.com/Food-Forest-Sardegna/FFTfx-Wallet/archive/refs/heads/main.zip) on yours Windows PC. Open the Desktop Wallet of the BNS, and create a new account inside the **Mainnet chain**<br>
+
+Step 5: Notedown/copy the Encoded Seed of your account from the BNS wallet settings area. (This Encodeed Seed will be used within the edits to be done inside the mainnet.conf file, to run the node).<br>
+
+Step 6: Open the mainnet.conf file in any text editor. (Text Note, NotePad etc)<br>
+
+Step 7: Edit the mainnet.conf file accordingly, in the lines showed below, and save it<br>
+
 a) node-name = "Type Your Node Name Here"<br> (Line 78 of the mainnet.conf file)
+
 b) declared-address = "127.0.0.1:6860" #declared ip address of your node<br> (Line 79 of the mainnet.conf file)
+
 c) seed = "Enter_Your_Encoded_Backup_Seed_Here_From_The_BNS_Wallet" <br> (Line 89 of the mainnet.conf file)
-d) password = "Enter any Random Password Here to protect your wallet" #Enter a 15 minimum characters strong password to protect your Wallet<br> (Line 90 of the mainnet.conf file)
+
+d) password = "Enter a strong Password here to protect your wallet" #Enter a strong password that has 15 characters minimum to protect your Wallet<br> (Line 90 of the mainnet.conf file)
+
 e) save the mainnet.conf file after making the changes needed indicated above<br>
-f) run the file start.bat by double clicking it, and the node should start downloading the blocks to get in synch with the Blockchain Natzionale Sarda BNS.<br>
+
+Step 8: Run the file start.bat by double clicking it, and the node should start downloading the blocks to get in synch with the Blockchain Natzionale Sarda.<br>
 
 If an error occurs while the node is starting up, it means that some error has been made in the mainnet.conf file edits.
 
-If no errors occur, congratulations, you are now officially operating a node inside the BNS, and your node will appear inside the dedicated section of the connected peers inside the BNS Explorer area.
+If no errors occur, congratulations, you are now officially operating a node inside the BNS, and your node will appear inside the dedicated section of the connected peers inside the BNS Explorer area visible here.
 
 ## Installing and configuring a Blockchain Natzionale Sarda BNS full node for mining FFTs (Food Forest Token) on a Linux PC/Server
+
 ## System and OS Requirements:<br>
 1. Ubuntu 20 VPS in case of Linux<br>
 2. Minimum 2 cores<br>
