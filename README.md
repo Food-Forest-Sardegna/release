@@ -7,8 +7,10 @@
 2. Java version 11 and above must be installed in your VPS. If your windows VPS doesn't have it, download it from [Here](https://www.java.com/en/download/) and set java in your windows environment.
 ## Installing and configuring a Blockchain Natzionale Sarda BNS full node for mining FFTs (Food Forest Token) on a Windows PC/VPS<br>
  Step 1: Click Here and [Download](https://github.com/Food-Forest-Sardegna/release/releases/download/v1.3.6-v1.5.3/fft-all-1.5.3.jar) the jar file.<br>
- Step 2: Modify the configuration file to activate your node in **mainnet.conf**<br>
- Step 3: Click the file inside the folder named as **"start.bat"**
+ Step 2: Download and unzip [this folder](https://github.com/Food-Forest-Sardegna/release/archive/refs/heads/main.zip)<br>
+ Step 3: Place the fft-all-1.5.3.jar inside the folder mentioned in step 2.<br>
+ Step 4: Modify the configuration file to activate your node in **mainnet.conf**<br>
+ Step 5: Click the file inside the folder named as **"start.bat"**
 
 ## How to run a BNS Node with Windows OS
 **Step 1:** Download the [BNS Desktop Wallet](https://github.com/Food-Forest-Sardegna/FFTfx-Wallet/archive/refs/heads/main.zip) on yours Windows PC. Open the Desktop Wallet of the BNS, and create a new account inside the **Mainnet chain**<br> 
