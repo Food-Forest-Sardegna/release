@@ -9,7 +9,7 @@ Istruzioni in Inglese e Italiano su come installare un nodo della BNS.
 2. Minimum 2 cores
 3. 2GB RAM
 4. 30GB SSD
-2. Java version 11 and above must be installed in your VPS. If your windows VPS doesn't have it, download it from [Here](https://www.oracle.com/java/technologies/downloads/#jdk22-windows) and set java in your windows environment.
+2. Java version 11 and above must be installed in your VPS. If your windows VPS doesn't have it, download it from [Here](https://jdk.java.net/22/) and set java in your windows environment.
 
 ## Installing and configuring a Blockchain Natzionale Sarda BNS full node for mining FFTs (Food Forest Token) on a Windows PC/VPS<br>
 
@@ -160,7 +160,7 @@ Congratulations on your choice, because it is thanks to free individuals like yo
 2. Minimo 2 core
 3. 2GB RAM
 4. 30GB SSD
-2. La versione 11 o superiore di Java deve essere installata nel VPS. Se il vostro VPS Windows non ce l'ha, scaricatelo da [Qui](https://www.oracle.com/java/technologies/downloads/#jdk22-windows) e impostate Java nel vostro ambiente Windows.
+2. La versione 11 o superiore di Java deve essere installata nel VPS. Se il vostro VPS Windows non ce l'ha, scaricatelo da [Qui](https://jdk.java.net/22/) e impostate Java nel vostro ambiente Windows.
 
 ## Installazione e configurazione di un nodo BNS della Blockchain Nazionale Sarda per il minaggio di FFT (Food Forest Token) su PC/VPS Windows<br>
 
