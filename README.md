@@ -29,13 +29,13 @@ Step 6: Open the mainnet.conf file in any text editor. (Text Note, NotePad etc)<
 
 Step 7: Edit the mainnet.conf file accordingly, in the lines showed below, and save it.<br>
 
-a) node-name = "Type Your Node Name Here"<br> (Line 78 of the mainnet.conf file)
+a) node-name = "Type Your Node Name Here"<br> (Line 75 of the mainnet.conf file)
 
-b) declared-address = "127.0.0.1:6860" #declared ip address of your node<br> (Line 79 of the mainnet.conf file)
+b) declared-address = "127.0.0.1:6860" #declared ip address of your node<br> (Line 76 of the mainnet.conf file)
 
-c) seed = "Enter_Your_Encoded_Backup_Seed_Here_From_The_BNS_Wallet" <br> (Line 89 of the mainnet.conf file)
+c) seed = "Enter_Your_Encoded_Backup_Seed_Here_From_The_BNS_Wallet" <br> (Line 85 of the mainnet.conf file)
 
-d) password = "Enter a strong Password here to protect your wallet" #Enter a strong password that has 15 characters minimum to protect your Wallet<br> (Line 90 of the mainnet.conf file)
+d) password = "Enter a strong Password here to protect your wallet" #Enter a strong password that has 15 characters minimum to protect your Wallet<br> (Line 86 of the mainnet.conf file)
 
 e) save the mainnet.conf file after making the changes needed indicated above<br>
 
@@ -120,13 +120,13 @@ Use the command **sudo vi mainnet.conf** again to edit the file from the begin
 
 **Step 6:** Edit the mainnet.conf file accordingly, in the lines showed below, and save it<br>
 
-a) node-name = "Type Your Node Name Here"<br> (Line 78 of the mainnet.conf file)
+a) node-name = "Type Your Node Name Here"<br> (Line 75 of the mainnet.conf file)
 
-b) declared-address = "127.0.0.1:6860" #declared ip address of your node<br> (Line 79 of the mainnet.conf file)
+b) declared-address = "127.0.0.1:6860" #declared ip address of your node<br> (Line 76 of the mainnet.conf file)
 
-c) seed = "Enter_Your_Encoded_Backup_Seed_Here_From_The_BNS_Wallet"<br> (Line 89 of the mainnet.conf file)
+c) seed = "Enter_Your_Encoded_Backup_Seed_Here_From_The_BNS_Wallet"<br> (Line 85 of the mainnet.conf file)
 
-d) password = "Your Password Here" #Enter a 15 minimum characters strong password to protect your Wallet<br> (Line 90 of the mainnet.conf file)
+d) password = "Your Password Here" #Enter a 15 minimum characters strong password to protect your Wallet<br> (Line 86 of the mainnet.conf file)
 
 e) use the commands below to save the changes inside the mainnet.conf file <br>
 
@@ -180,13 +180,13 @@ Passaggio 6: Apri il file mainnet.conf in qualsiasi editor di testo. (Nota di te
 
 Passaggio 7: Modifica il file mainnet.conf ove necessario, nelle righe mostrate di seguito, e salvalo.<br>
 
-a) node-name = "Digita qui il nome del tuo nodo/Type Your Node Name Here"<br> (Riga 78 del file mainnet.conf)
+a) node-name = "Digita qui il nome del tuo nodo/Type Your Node Name Here"<br> (Riga 75 del file mainnet.conf)
 
-b) declared-address = "127.0.0.1:6860" #indirizzo IP dichiarato del tuo nodo(può rimanere invariato)<br> (Riga 79 del file mainnet.conf)
+b) declared-address = "127.0.0.1:6860" #indirizzo IP dichiarato del tuo nodo(può rimanere invariato)<br> (Riga 76 del file mainnet.conf)
 
-c) seed = "Inserisci qui il tuo Seed Codificato ottenuto nel portafoglio BNS/Enter_Your_Encoded_Backup_Seed_Here_From_The_BNS_Wallet" <br> (Riga 89 del file mainnet.conf)
+c) seed = "Inserisci qui il tuo Seed Codificato ottenuto nel portafoglio BNS/Enter_Your_Encoded_Backup_Seed_Here_From_The_BNS_Wallet" <br> (Riga 85 del file mainnet.conf)
 
-d) password = "Inserisci qui una password complessa per proteggere il tuo portafoglio" #Inserisci una password complessa che contenga almeno 15 caratteri per proteggere il tuo portafoglio<br> (Riga 90 del file mainnet.conf)
+d) password = "Inserisci qui una password complessa per proteggere il tuo portafoglio" #Inserisci una password complessa che contenga almeno 15 caratteri per proteggere il tuo portafoglio<br> (Riga 86 del file mainnet.conf)
 
 e) salva il file mainnet.conf dopo aver apportato le modifiche necessarie indicate sopra<br>
 
@@ -271,13 +271,13 @@ Se necessario, utilizza nuovamente il comando **sudo vi mainnet.conf** per mod
 
 **Passaggio 6:** Modifica il file mainnet.conf come necessario, nelle righe indicate qui di seguito, e salvalo<br>
 
-a) node-name = "Digita qui il nome del tuo nodo/Type Your Node Name Here"<br> (Riga 78 del file mainnet.conf)
+a) node-name = "Digita qui il nome del tuo nodo/Type Your Node Name Here"<br> (Riga 75 del file mainnet.conf)
 
-b) declared-address = "127.0.0.1:6860" #indirizzo IP dichiarato del tuo nodo(può rimanere invariato)<br> (Riga 79 del file mainnet.conf)
+b) declared-address = "127.0.0.1:6860" #indirizzo IP dichiarato del tuo nodo(può rimanere invariato)<br> (Riga 76 del file mainnet.conf)
 
-c) seed = "Inserisci qui il tuo Seed Codificato ottenuto nel portafoglio BNS/Enter_Your_Encoded_Backup_Seed_Here_From_The_BNS_Wallet" <br> (Riga 89 del file mainnet.conf)
+c) seed = "Inserisci qui il tuo Seed Codificato ottenuto nel portafoglio BNS/Enter_Your_Encoded_Backup_Seed_Here_From_The_BNS_Wallet" <br> (Riga 85 del file mainnet.conf)
 
-d) password = "Inserisci qui una password complessa per proteggere il tuo portafoglio" #Inserisci una password complessa che contenga almeno 15 caratteri per proteggere il tuo portafoglio<br> (Riga 90 del file mainnet.conf)
+d) password = "Inserisci qui una password complessa per proteggere il tuo portafoglio" #Inserisci una password complessa che contenga almeno 15 caratteri per proteggere il tuo portafoglio<br> (Riga 86 del file mainnet.conf)
 
 e) utilizza le indicazioni e i comandi seguenti per salvare le modifiche all'interno del file mainnet.conf <br>
 
