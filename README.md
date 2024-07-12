@@ -7,8 +7,8 @@ Istruzioni in Inglese e Italiano su come installare un nodo della BNS.
 
 1. Windows 10 and above
 2. Minimum 2 cores
-3. 2GB RAM
-4. 30GB SSD
+3. 4GB RAM
+4. 80GB SSD
 2. Java version 11 and above must be installed in your VPS. If your windows VPS doesn't have it, download it from [Here](https://jdk.java.net/22/) and set java in your windows environment.
 
 ## Installing and configuring a Blockchain Natzionale Sarda BNS full node for mining FFTs (Food Forest Token) on a Windows PC/VPS<br>
@@ -55,8 +55,8 @@ Congratulations on your choice, because it is thanks to free individuals like yo
 
 1. Ubuntu 20 VPS in case of Linux<br>
 2. Minimum 2 cores<br>
-3. 2GB RAM<br>
-4. 30GB SSD<br>
+3. 4GB RAM<br>
+4. 80GB SSD<br>
 
 PLEASE KEEP IN MIND! THE DESKTOP WALLET IS ONLY AVAILABLE FOR WINDOWS OS
 
@@ -158,8 +158,8 @@ Congratulations on your choice, because it is thanks to free individuals like yo
 
 1. Windows 10 o superiore
 2. Minimo 2 core
-3. 2GB RAM
-4. 30GB SSD
+3. 4GB RAM
+4. 80GB SSD
 2. La versione 11 o superiore di Java deve essere installata nel VPS. Se il vostro VPS Windows non ce l'ha, scaricatelo da [Qui](https://jdk.java.net/22/) e impostate Java nel vostro ambiente Windows.
 
 ## Installazione e configurazione di un nodo BNS della Blockchain Nazionale Sarda per il minaggio di FFT (Food Forest Token) su PC/VPS Windows<br>
@@ -206,8 +206,8 @@ Complimenti per la tua scelta, perché è grazie a individui liberi come te che 
 
 1. Ubuntu 20 VPS in caso di Linux<br>
 2. Minimo 2 core<br>
-3. 2 GB di RAM<br>
-4. SSD da 30 GB<br>
+3. 4 GB di RAM<br>
+4. SSD da 80 GB<br>
 
 PER FAVORE RICORDA! IL PORTAFOGLIO DESKTOP È DISPONIBILE SOLO PER IL SISTEMA OPERATIVO WINDOWS
 
